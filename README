@@ -1,0 +1,16 @@
+To install :
+  cd ~
+  git clone http://github.com/vivrass/dotvim.git ~/.vim
+  ln -s ~/.vim/vimrc ~/.vimrc
+  cd ~/.vim
+  git submodule init
+  git submodule update
+
+To add bundle:
+  git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
+
+To update all bundle:
+  git submodule foreach git pull origin master
+
+More information :
+  http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
