@@ -221,11 +221,11 @@ module CommandT
         'AcceptSelectionVSplit' => '<C-v>',
         'ToggleFocus'           => '<Tab>',
         'Cancel'                => ['<C-c>', '<Esc>'],
-        'SelectNext'            => ['<C-n>', '<C-j>', '<Down>'],
-        'SelectPrev'            => ['<C-p>', '<C-k>', '<Up>'],
+        'SelectNext'            => ['<C-n>', '<C-j>'],
+        'SelectPrev'            => ['<C-p>', '<C-k>'],
         'Clear'                 => '<C-u>',
-        'CursorLeft'            => ['<Left>', '<C-h>'],
-        'CursorRight'           => ['<Right>', '<C-l>'],
+        'CursorLeft'            => ['<C-h>'],
+        'CursorRight'           => ['<C-l>'],
         'CursorEnd'             => '<C-e>',
         'CursorStart'           => '<C-a>' }.each do |key, value|
         if override = get_string("g:CommandT#{key}Map")

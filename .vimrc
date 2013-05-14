@@ -181,12 +181,12 @@ endfunction
 "Ctrl-{up,down} to scroll.
 "The following only works in gvim?
 "Also vim doesn't have default C-{home,end} bindings?
-if has("gui_running")
-    nmap <C-up> <C-y>
-    imap <C-up> <C-o><C-y>
-    nmap <C-down> <C-e>
-    imap <C-down> <C-o><C-e>
-endif
+"if has("gui_running")
+"    nmap <C-up> <C-y>
+"    imap <C-up> <C-o><C-y>
+"    nmap <C-down> <C-e>
+"    imap <C-down> <C-o><C-e>
+"endif
 
 " colorscheme torte
 colorscheme vividchalk
